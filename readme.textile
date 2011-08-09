@@ -1,0 +1,3 @@
+h3. General Rules
+* Don't plagiarize code
+* If you want to participate but don't actually think you could to go zendcon, please note that in your submission
