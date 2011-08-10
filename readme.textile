@@ -4,6 +4,8 @@ h3. What do I win?
 h3. General Rules
 * Don't plagiarize code
 * If you want to participate but don't actually think you could to go Zendcon, please note that in your submission's readme
+* Judging will be done as impartially as possible, by myself
+* Submissions are due by *9/4/2011*
 
 h3. Objective
 * Write a 2 classes that model HTTP requests
@@ -16,6 +18,7 @@ h3. Objective
 *** Class should be able to parse a plaintext HTTP response and store the relevant data within an instance
 *** Class should know if the response returned is a redirect
 *** Class should be able to list all returned HTTP response headers
+*** Class should store it's HTTP status code as a distinct piece of data
 
 h3. Bonus Points
 * The more PHP 5.3 features you use, the better
