@@ -1,3 +1,6 @@
+h3. What do I win?
+* 1 Tutorials + Conference ticket to [Zendcon 2011|http://www.zendcon.com] (No travel or accommodations included)
+
 h3. General Rules
 * Don't plagiarize code
 * If you want to participate but don't actually think you could to go zendcon, please note that in your submission
@@ -15,3 +18,4 @@ h3. Bonus Points
 * The more HTTP verbs you support, the better
 * Support SSL (HTTPS) requests
 * Support requests on on arbitrary ports
+
