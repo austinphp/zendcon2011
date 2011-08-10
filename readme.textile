@@ -1,17 +1,21 @@
 h3. What do I win?
-* 1 Tutorials + Conference ticket to [Zendcon 2011|http://www.zendcon.com] (No travel or accommodations included)
+* 1 Tutorials + Conference ticket to Zendcon 2011 (http://www.zendcon.com) (No travel or accommodations included)
 
 h3. General Rules
 * Don't plagiarize code
-* If you want to participate but don't actually think you could to go zendcon, please note that in your submission
+* If you want to participate but don't actually think you could to go Zendcon, please note that in your submission's readme
 
 h3. Objective
-* Write a class that executes HTTP requests
-** Class should be able to send HTTP requests to an arbitrary HTTP server of my choosing
-** Class should at least support POST and GET
-** Class should be able to send arbitrary HTTP headers
-** Class should be able to parse and store any HTTP headers it may receive
-** Class should not use CURL
+* Write a 2 classes that model HTTP requests
+** Request class
+*** Class should be able to send well formed HTTP requests to an arbitrary HTTP server of my choosing
+*** Class should at least support POST and GET
+*** Class should be able to send arbitrary HTTP headers
+*** Class should not use CURL or pecl_http functions
+** Response class
+*** Class should be able to parse a plaintext HTTP response and store the relevant data within an instance
+*** Class should know if the response returned is a redirect
+*** Class should be able to list all returned HTTP response headers
 
 h3. Bonus Points
 * The more PHP 5.3 features you use, the better
